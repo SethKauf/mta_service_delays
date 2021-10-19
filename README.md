@@ -19,4 +19,6 @@ My model took data from several sources to try and determine the main causes of 
   
 My current stage is the data is cleaned and dummied with about 200 features to look through.<br>
   
+I have tested several models and plan to use an f1_score to determine my model success, as I'm testing 2 delays inside of all IRT train delays.<br>
+  
 I will be updating this ReadMe as I go and hopefully deploy an app soon enough!<br>
