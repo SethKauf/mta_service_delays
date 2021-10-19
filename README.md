@@ -1,5 +1,5 @@
-# mta_service_delays
-A look at MTA service delays<br>
+# 2 Train Delays
+A look at delays to the 2 Line<br>
 
 As a proof of concept, I'm building a predictive model to determine what causes delays on the 2 line.<br>
 
