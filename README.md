@@ -25,7 +25,7 @@ As a proof of concept, I analyzed the delays to the IRT or Division A trains in 
 I then built a predictive model that can be used to determine delays at any given IRT station.<br>
 
 <img src="images/Subway_map.PNG" width="600" height="500"><br>
-<sup>Station locations on IRT line<sub></sup><br>
+<sup>Station locations on IRT line. 1/2/3 are in red, 4/5/6 in green, 7 in purple, S in gray, and mixed stations (combinations of the 2/3/4/5) are in orange<sub></sup><br>
   
 ## Data
 I stratified this to Jan 01, 2010-Sep 30, 2021. Then by Agency to just NYCT Subway and no escelator/elevator information.<br>
