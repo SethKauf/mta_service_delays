@@ -21,22 +21,21 @@ The NYT reported in 2017 that [delays cost $307 million annually](https://www.ny
 As a proof of concept, I analyzed the delays to the IRT or Division A trains in the system. These are all the numbered lines and the 42nd street shuttle. [Here's more info on Wiki](https://en.wikipedia.org/wiki/A_Division_(New_York_City_Subway)).
 
 <img src="images/Subway_map.PNG" width="600" height="500">
-  <sup>Station locations on IRT line</sup><br>
+  <sup>Station locations on IRT line<sub></sup><br>
 
-  
+
+
 To make my data useful, I did the following:<br>
   * Took out any "updates" so the same delay wouldn't be repeated<br>
   * Took out all planned service<br>
-  * Took out station names for what station it was delayed at<br>
-  * Took out all causes and turned them into features<br>
-  * 
-  * Created a "delayed_irt" column that was a 1 or 0 if the delay affected a train on the IRT line<br>
+  * Took out station names for what station it was delayed at and which borough<br>
+  * Turned all causes into features<br>
+  * Turned all days into features<br>
   * Feature engineered time and weather variables<br>
-  * 
-  
+  * Created a "delayed_irt" column that was a 1 or 0 if the delay affected a train on the IRT line<br>
+  * Removed non-IRT stations from ridership data<br>
+    
 
-At my current stage, the data is cleaned with about 200 features to look through and model on.<br>
-  
-I have tested several models and plan to use an f1_score to determine my model success, as I'm testing 2 delays inside of all IRT train delays.<br>
-  
-I will be updating this ReadMe as I go and hopefully deploy an app soon enough!<br>
+Below is a chart of how some of the features were distributed:
+
+<img src=
