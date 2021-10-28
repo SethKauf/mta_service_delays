@@ -93,7 +93,7 @@ Other notable causes were Passengers, who usually caused delays in one of three 
   
 Finally, I looked at the ridership data for NYC from 2015-2020. As part of my proof of concept, I just looked at the top-10 most frequently used stations in the system, 9 of which are in Manhattan. I used these as my "test" subjects for my future model deployment.<br>
   
-<img src="images/top_stations_ridership.png"><br>
+<img src="images/top_stations_ridership_bigger_legend.png"><br>
   
 Times Square is, unsurprisingly, the behemoth station in the system in terms of ridership, with Grand Central being a distant second.<br>
   
