@@ -1,5 +1,5 @@
-# MTA Service Delays on the IRT Line
-A look at delays on the IRT Line<br>
+# MTA Service Delays on the IRT Division
+A look at delays on Subways in the IRT Division of the MTA, NYC's public transit authority<br>
 
 # Overview
 
