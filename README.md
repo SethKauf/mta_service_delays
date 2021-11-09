@@ -1,6 +1,10 @@
 # MTA Service Delays on the IRT Division
 A look at delays on Subways in the IRT Division of the MTA, NYC's public transit authority<br>
 
+** Note **
+
+(Nov 9, 2021): I am currently in the process of updating this for the full MTA. Please stay tuned - hoping to deploy a model by the end of the week!
+
 # Overview
 
 For my final project at Flatiron, I analyzed the data on delays from the [MTA Alerts Archive](https://mymtaalerts.com/archive).<br>
@@ -24,7 +28,7 @@ As a proof of concept, I analyzed the delays to the IRT or Division A trains in 
   
 I then built a predictive model that can be used to determine delays at any given IRT station.<br>
 
-<img src="images/Subway_map.PNG" width="600" height="500"><br>
+<img src="Capstone_notebooks/images/Subway_map.PNG" width="600" height="500"><br>
 <sup>Station locations on IRT line. 1/2/3 are in red, 4/5/6 in green, 7 in purple, S in gray, and mixed stations (combinations of the 2/3/4/5) are in orange<sub></sup><br>
   
 ## Data
@@ -52,16 +56,16 @@ To make my data useful, I did the following:<br>
 ## Visualizations<br>
 Below are some visualizations:<br>
 
-<img src="images/features_heatmap.png" width="700" height="500"><br>
+<img src="Capstone_notebooks/images/features_heatmap.png" width="700" height="500"><br>
   <sup>Heatmap of features correlation to IRT delays</sup><sub><br>
   
 
 
-<img src="images/borough_count.png" width="700" height="600"><br>
+<img src="Capstone_notebooks/images/borough_count.png" width="700" height="600"><br>
   <sup>How frequently a delay is caused in each borough</sup><sub><br>
    
    
-<img src="images/causes_features.png" width="700" height="600"><br>
+<img src="Capstone_notebooks/images/causes_features.png" width="700" height="600"><br>
   <sup>Main causes of delays</sup><br>
 
 ## Explanation<br>
@@ -86,14 +90,14 @@ Other notable causes were Passengers, who usually caused delays in one of three 
   
 ...and the trains themselves, usually through door malfunctions or being removed from service for one reason or another<br>.
   
-<img src="images/7_train_signal.jpg"><br>
+<img src="Capstone_notebooks/images/7_train_signal.jpg"><br>
   <sup>7 train with a signal shown on the right, passing by the iconic Silvercup sign in LIC, Queens</sup><br>
   
 ## Ridership<br>
   
 Finally, I looked at the ridership data for NYC from 2015-2020. As part of my proof of concept, I just looked at the top-10 most frequently used stations in the system, 9 of which are in Manhattan. I used these as my "test" subjects for my future model deployment.<br>
   
-<img src="images/top_stations_ridership_bigger_legend.png"><br>
+<img src="Capstone_notebooks/images/top_stations_ridership_bigger_legend.png"><br>
   
 Times Square is, unsurprisingly, the behemoth station in the system in terms of ridership, with Grand Central being a distant second.<br>
   
@@ -115,7 +119,7 @@ The best overall model I came up on my imbalanced dataset with was a Logistic Re
   
 I SMOTEd the data (love saying that), meaning I balanced the classes, and the best model with these metrics was Bernoulli Naive Bayes, at 67.82% overall accuracy and an F1 score of 65.07%. Not too shabby!<br>
   
-<img src="images/bnb_matrix.png">
+<img src="Capstone_notebooks/images/bnb_matrix.png">
   
 ## Model testing<br>
   
