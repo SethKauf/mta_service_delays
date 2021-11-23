@@ -5,6 +5,8 @@ A look at delays on Subways in the IRT Division of the MTA, NYC's public transit
 
 (Nov 9, 2021): I am currently in the process of updating this for the full MTA. Please stay tuned - hoping to deploy a model by the end of the week!
 
+(Nov 23, 2021): EDA is underway for Division B lines. I plan on doing two different models and going from there
+
 # Overview
 
 For my final project at Flatiron, I analyzed the data on delays from the [MTA Alerts Archive](https://mymtaalerts.com/archive).<br>
