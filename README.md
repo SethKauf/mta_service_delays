@@ -7,6 +7,8 @@ A look at delays on Subways in the IRT Division of the MTA, NYC's public transit
 
 (Nov 23, 2021): EDA is underway for Division B lines. I plan on doing two different models and going from there
 
+(Nov 30, 2021): Modeling is underway. I've created a new target column with the goal of using it to cluster (KNN/KMeans?)
+
 # Overview
 
 For my final project at Flatiron, I analyzed the data on delays from the [MTA Alerts Archive](https://mymtaalerts.com/archive).<br>
