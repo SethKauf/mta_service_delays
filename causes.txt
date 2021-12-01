@@ -1,0 +1,15 @@
+Causes:
+
+Passenger - Medical, Sick, Police, Graffiti, Vandalism, Investigation, EMS, NYPD, Struck [by a train], assault, surf[ing]
+
+Station Integrity - Station, Construction, Unsanitary, Inspection, Impacy, Flood, Gap [in platform], Smoke, FDNY
+
+Mechanical and Track - Mechanical, Track, Derail[ment], Rail, Debris, Power, Electric, Fire, Maintenance, Block[age], Falling, On Track, Tree
+
+Train - Door, Accident, Brake
+
+Weather - Storm, Inclement, Flood, Ice, Cold, Rain, Icy, Forecast, Hurricane
+
+Signal
+
+Switch
