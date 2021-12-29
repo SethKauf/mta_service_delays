@@ -9,6 +9,8 @@ A look at delays on Subways in the IRT Division of the MTA, NYC's public transit
 
 (Nov 30, 2021): Modeling is underway. I've created a new target column with the goal of using it to cluster (KNN/KMeans?)
 
+(Dec 29, 2021): Finished modeling (for the most part). Cleaning up folders, hoping to deploy over New Years.
+
 # Overview
 
 For my final project at Flatiron, I analyzed the data on delays from the [MTA Alerts Archive](https://mymtaalerts.com/archive).<br>
