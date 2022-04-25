@@ -3,6 +3,8 @@ A look at delays on Subways in the IRT Division of the MTA, NYC's public transit
 
 ** Note **
 
+(Apr 25, 2022): Currently experiencing some deployment issues with Flask/Heroku. Cleaning up this folder for continuity.
+
 (Mar 14, 2022): Finished analysis and modeling. Planning to deploy over next few days. This ReadMe will be moved into an older/archive folder for posterity. Hopefully if this model is deployed the way I envision, I'll have a lot of cool stuff on the way in the future!
 
 (Dec 29, 2021): Finished modeling (for the most part). Cleaning up folders, hoping to deploy over New Years.
