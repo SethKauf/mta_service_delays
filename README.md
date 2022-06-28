@@ -1,20 +1,6 @@
 # MTA Service Delays on the IRT Division
 A look at delays on Subways in the IRT Division of the MTA, NYC's public transit authority<br>
 
-** Note **
-
-(Apr 25, 2022): Currently experiencing some deployment issues with Flask/Heroku. Cleaning up this folder for continuity.
-
-(Mar 14, 2022): Finished analysis and modeling. Planning to deploy over next few days. This ReadMe will be moved into an older/archive folder for posterity. Hopefully if this model is deployed the way I envision, I'll have a lot of cool stuff on the way in the future!
-
-(Dec 29, 2021): Finished modeling (for the most part). Cleaning up folders, hoping to deploy over New Years.
-
-(Nov 30, 2021): Modeling is underway. I've created a new target column with the goal of using it to cluster (KNN/KMeans?)
-
-(Nov 23, 2021): EDA is underway for Division B lines. I plan on doing two different models and going from there
-
-(Nov 9, 2021): I am currently in the process of updating this for the full MTA. Please stay tuned - hoping to deploy a model by the end of the week!
-
 # Overview
 
 For my final project at Flatiron, I analyzed the data on delays from the [MTA Alerts Archive](https://mymtaalerts.com/archive).<br>
